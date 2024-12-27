@@ -1,0 +1,11 @@
+[project]
+name = "fits_reader"
+version = "0.1.0"
+authors = ["<fengpeng> <<765915617@qq.com>>"]
+description = "A simple FITS file reader"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
