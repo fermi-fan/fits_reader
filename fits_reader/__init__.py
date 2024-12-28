@@ -1,1 +1,1 @@
-from .fits_info import FITSInfo
+from .fits_reader import FITSInfo

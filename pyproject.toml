@@ -1,9 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "fits_reader"
+name = "fengreader"
 version = "0.1.0"
-authors = ["<fengpeng> <<765915617@qq.com>>"]
+authors = [{ name = "fengpeng", email = "765915617@qq.com" }]
 description = "A simple FITS file reader"
 readme = "README.md"
+dependencies = ['astropy']
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
